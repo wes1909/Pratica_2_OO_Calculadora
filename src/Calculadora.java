@@ -10,9 +10,9 @@ public class Calculadora {
 
  }
 
-public Calculadora (int num1, int num2, int resultado){
+public Calculadora (int num1, int num2){
 
-         this.num1 = num1;
+        this.num1 = num1;
         this.num2 = num2;
         this.resultado = resultado;
 

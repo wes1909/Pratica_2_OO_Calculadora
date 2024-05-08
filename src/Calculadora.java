@@ -6,47 +6,46 @@ public class Calculadora {
 
 //Construtores///////////////////////////////////////////////////////
 
- public Calculadora(){
+    public Calculadora() {
 
- }
+    }
 
-public Calculadora (int num1, int num2){
+    public Calculadora(int num1, int num2) {
 
         this.num1 = num1;
         this.num2 = num2;
         this.resultado = resultado;
 
-}
+    }
 
 //Métodos///////////////////////////////////////////////////////
 
- public int somar() {
+    public int somar() {
 
         this.resultado = this.num1 + this.num2;
 
-        return this.resultado;
- }
+            return this.resultado;
+    }
 
- public int subtrair() {
+    public int subtrair() {
 
         this.resultado = this.num1 - this.num2;
 
-        return this.resultado;
+            return this.resultado;
     }
 
-public int multiplicar() {
+    public int multiplicar() {
 
         this.resultado = this.num1 * this.num2;
 
-        return this.resultado;
+            return this.resultado;
     }
 
-public int dividir() {
+    public int dividir() {
 
         this.resultado = this.num1 / this.num2;
 
-        return this.resultado;
+            return this.resultado;
+
     }
-
-
 }
